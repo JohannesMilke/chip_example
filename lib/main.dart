@@ -58,23 +58,23 @@ class _MainPageState extends State<MainPage> {
           items: [
             BottomNavigationBarItem(
               icon: Text('Chips'),
-              title: Text('ActionChip'),
+              label: 'ActionChip',
             ),
             BottomNavigationBarItem(
               icon: Text('Chips'),
-              title: Text('InputChip'),
+              label: 'InputChip',
             ),
             BottomNavigationBarItem(
               icon: Text('Chips'),
-              title: Text('FilterChip'),
+              label: 'FilterChip',
             ),
             BottomNavigationBarItem(
               icon: Text('Chips'),
-              title: Text('ChoiceChip'),
+              label: 'ChoiceChip',
             ),
             BottomNavigationBarItem(
               icon: Text('Chips'),
-              title: Text('Chip'),
+              label: 'Chip',
             ),
           ],
           onTap: (int index) => setState(() => this.index = index),
